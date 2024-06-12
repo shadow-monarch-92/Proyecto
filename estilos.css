@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boton_index{
+    margin-top: 10px;
+    background-color:rgb(27, 164, 168);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+.body_index{
+    height: 100vh;
+    background-image: url(Mecatronica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_index{
+    color: black(255, 255, 255);
+    text-align: center;
+}
+.nombre{
+    font-size: 55px;
+    color: #24e9be;
+}
+
+.p1{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2ba39d;
+}
+body{
+    margin: 0;
+
+}
+
+h1, h2, h3, h4,h5, h6{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p{
+    font-family:monospace;
+}
+.redes_sociales {
+    background-color: #4187af;
+    height: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_sociales a {
+    margin-right: 15px;
+}
+
+.redes_sociales i {
+    display: flex;
+    width: 32px;  
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.redes_sociales .fb {
+    background-image: url('facebook.png');
+}
+
+.redes_sociales .ig {
+    background-image: url('instagram.png');
+}
+
+.redes_sociales .yt {
+    background-image: url('youtube.png');
+}
+
+.redes_sociales .tt {
+    background-image: url('tik-tok.png');
+}
+
+nav{
+    height: 40px;
+    background-color:rgb(120, 180, 219);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family:'Roboto Mono', sans-serif;
+    font-weight: bolder;
+    color:#2494c0;
+}
+
+nav .logo_nav img{
+    height: 40px;
+}
+
+nav .menu_nav ul{
+    display:flex;
+    list-style-type: none;
+}
+
+nav .menu_nav_ul li{
+    margin-right:20px;
+    
+}
+
+nav .menu_nav a{
+    text-decoration: none;
+    color:#04495a;
+
+}
+
+.main{
+    height: 100vh;
+    background-image: url("inversion.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.main-section{
+    color:white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size:120px;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue';
+}
+
+.main-section p{
+    font-size: 20px;
+    margin-top: 0;
+    font-family: 'Roboto Mono';
+
+}
+
+.main-section button{
+    background-color:rgb(21, 90, 102);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.titulo_del_blog{
+    text-align:center;
+    margin: 100px 0;
+
+}
+
+.titulo_del_blog h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+
+.titulo_del_blog p{
+    font-family: 'Roboto Mono', 'Roboto';
+    margin:0;
+}
+
+.titulo_del_cuerpo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_del_contenido{
+    width: 30%;
+    padding: 30px;
+}
+
+.titulo_del_contenido p{
+    text-align: justify;
+}
+
+
+.titulo_de_la_imagen{
+    width: 30%;
+}
+
+.titulo_de_la_imagen img{
+    width:100%;
+    border-radius:30px;
+}
+
+.titulo_del_autor{
+    width:60%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.titulo_del_autor h3{
+    font-size:30px;
+    margin:0;
+}
+
+.titulo_del_autor p{
+    margin:0;
+}
+
+.imagenes_de_autor{
+    width: 100px;
+    height: 100px;    
+    margin: 20px;
+}
+
+.imagenes_de_autor img{
+    width:100%;
+    border-radius: 100%;
+
+}
+.footer_pagi{
+    height:60px;
+    background-image: linear-gradient(#203c47, #3e92ad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Mono'; 
+}
+
+.proyectos_primordial{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.proyectos_img {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;            
+}
+
+.proyectos_img img {
+    height: 80%;            
+    border-radius: 15px;     
+    max-width: 100%;     
+}
+
+.proyectos_estable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.proyecto_cartilla {
+    width: 20%;
+    border: 3px solid #a4a6a77c;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 30px;
+    padding: 1%;
+}
+
+.proyecto_cartilla h3{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.proyecto_cartilla p{
+    margin-top: 0;
+}
+
+.proyecto_cartilla img{
+    width: 50%;
+}
+.contactame{
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contactame_cartilla{
+    text-align: center;
+}
+
+.contactame_img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.contacto-imagen img{
+    width:100%;
+    
+}
+
+
+.botones{
+    text-align: center;
+}
+
+.botones button{
+    background-color:#278596;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botones button:focus{
+    background-color:#27c2dd;
+}
+
+.info{
+    width:600px;
+    font-family: 'Roboto';
+}
+
+.info h1{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    margin-bottom:0;
+}
+.info p{
+    margin-top: 0;
+}
+
